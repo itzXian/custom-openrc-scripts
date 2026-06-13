@@ -1,0 +1,5 @@
+#!/usr/bin/openrc-run
+
+command="/usr/bin/mpd"
+command_background=true
+pidfile="${XDG_RUNTIME_DIR}/${RC_SVCNAME}.pid"

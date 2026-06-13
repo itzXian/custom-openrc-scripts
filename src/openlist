@@ -1,0 +1,6 @@
+#!/usr/bin/openrc-run
+
+command="/usr/bin/openlist"
+command_args="--data ${XDG_CONFIG_HOME}/openlist server"
+command_background=true
+pidfile="${XDG_RUNTIME_DIR}/${RC_SVCNAME}.pid"
