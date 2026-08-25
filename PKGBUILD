@@ -4,13 +4,15 @@ pkgrel=1
 pkgdesc="OpenRC init scripts"
 arch=('any')
 url=""
-depends=(
+optdepends=(
 'openrc'
 'mpd'
 'mympd'
 'openlist'
 'qbittorrent-nox'
 'snapcast'
+'aria2'
+'surge'
 )
 conflicts=(
 'custom-mpd-openrc'
@@ -20,6 +22,7 @@ conflicts=(
 'qbittorrent-nox-openrc'
 'snapcast-openrc'
 'mihomo-openrc'
+'aria2-openrc'
 )
 license=('GPL')
 
