@@ -13,6 +13,7 @@ optdepends=(
 'snapcast'
 'aria2'
 'surge'
+'transmission'
 )
 conflicts=(
 'custom-mpd-openrc'
@@ -23,6 +24,8 @@ conflicts=(
 'snapcast-openrc'
 'mihomo-openrc'
 'aria2-openrc'
+'surge-openrc'
+'transmission-openrc'
 )
 license=('GPL')
 
